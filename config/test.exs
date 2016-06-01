@@ -17,3 +17,7 @@ config :bangers_and_mash, BangersAndMash.Repo,
   database: "bangers_and_mash_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
+
+config :bangers_and_mash, step_directory: "test/support/browser/steps/"
+config :bangers_and_mash, browser_test_directory: "test/support/browser/tests/"
+config :bangers_and_mash, web_ui_directory: "test/support/integrations/web/"
