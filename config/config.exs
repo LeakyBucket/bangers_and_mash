@@ -30,3 +30,6 @@ config :phoenix, :generators,
 
 # Hound configuration
 config :hound, driver: "phantomjs"
+
+# Set compiler options to allow re-difiniton of Modules
+Code.compiler_options ignore_module_conflict: true
