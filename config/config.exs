@@ -7,6 +7,7 @@ use Mix.Config
 
 # Configures the endpoint
 config :bangers_and_mash, BangersAndMash.Endpoint,
+  ecto_repos: [BangersAndMash.Repo],
   url: [host: "localhost"],
   root: Path.dirname(__DIR__),
   secret_key_base: "YTYXzEfYm65T05TlwI/gkq/Y4TnmtU3B1JZUX1m8EKVUJW1Lu7ak/yjieyLBRqcQ",
